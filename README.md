@@ -1,6 +1,4 @@
-# ForumHub - MERN Stack Migration
-
-🎉 **Successfully migrated from PHP+MySQL to React+Node.js+MongoDB!**
+# ForumHub
 
 ## Overview
 
