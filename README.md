@@ -241,13 +241,10 @@ The UI has been carefully preserved from the original PHP version while upgradin
 - Check file size limits in `middleware/upload.js`.
 
 ## 🤝 Contributing
-
-This project is a migration of an existing PHP forum to the MERN stack.
+---
 
 ## 📝 License
 
-MIT
-
 ---
 
-**Made with ❤️ - Successfully migrated to MERN Stack!**
+
