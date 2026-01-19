@@ -1,0 +1,126 @@
+/* Admin Panel Responsive Styles */
+
+/* Mobile responsive admin panel */
+@media (max-width: 768px) {
+
+    /* Sidebar takes full width on mobile when open */
+    aside {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 250px !important;
+        z-index: 1000;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Overlay for mobile sidebar */
+    .sidebar-open::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+    }
+
+    /* Admin tables scroll horizontally on mobile */
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .table {
+        min-width: 768px;
+        font-size: 0.875rem;
+    }
+
+    /* Reduce header padding on mobile */
+    header {
+        padding: 10px 15px !important;
+    }
+
+    /* Reduce main content padding */
+    main {
+        padding: 15px !important;
+        width: 100%;
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+
+    /* Constrain header width */
+    header {
+        padding: 10px 15px !important;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    /* Ensure flex container doesn't overflow */
+    .sidebar-open {
+        overflow-x: hidden;
+        max-width: 100vw;
+    }
+
+    /* Make cards fully responsive */
+    .card {
+        margin-bottom: 1rem;
+    }
+
+    .card-header {
+        font-size: 1rem;
+    }
+
+    /* Chart responsiveness */
+    canvas {
+        max-height: 300px !important;
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    aside {
+        width: 200px !important;
+    }
+
+    .table {
+        font-size: 0.9rem;
+    }
+}
+
+/* Admin-specific animations */
+.btn-danger:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f3f5;
+}
+
+/* Sidebar animation */
+aside {
+    transition: width 0.3s ease-in-out;
+}
+
+/* Scrollbar styling for admin panel */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

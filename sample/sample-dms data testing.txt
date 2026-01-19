@@ -1,0 +1,93 @@
+$posts = [
+    [
+        "title" => "The Future of Artificial Intelligence: Trends and Predictions",
+        "content" => "Artificial Intelligence (AI) has evolved significantly in recent years. From machine learning advancements to the rise of generative AI, the future looks promising. In this article, we will explore key trends such as AI ethics, autonomous systems, and real-world AI applications that will shape the next decade.",
+        "category" => "Technology",
+        "custom_category" => "",
+        "privacy" => "public",
+        "image" => [
+            "name" => "ai_future.jpg",
+            "type" => "image/jpeg",
+            "tmp_name" => "/tmp/php12345",
+            "error" => 0,
+            "size" => 204800
+        ],
+        "video" => [
+            "name" => "ai_demo.mp4",
+            "type" => "video/mp4",
+            "tmp_name" => "/tmp/php67890",
+            "error" => 0,
+            "size" => 10485760
+        ]
+    ],
+    [
+        "title" => "Top 10 Study Tips for College Students",
+        "content" => "Studying effectively is crucial for academic success. In this article, we discuss the top 10 study techniques, including time management, active recall, the Pomodoro technique, and creating a distraction-free environment to improve productivity.",
+        "category" => "Education",
+        "custom_category" => "",
+        "privacy" => "public",
+        "image" => [
+            "name" => "study_tips.jpg",
+            "type" => "image/jpeg",
+            "tmp_name" => "/tmp/php23456",
+            "error" => 0,
+            "size" => 150000
+        ],
+        "video" => null
+    ],
+ 
+    [
+        "title" => "5 Simple Lifestyle Changes for Better Health",
+        "content" => "Leading a healthy lifestyle doesn’t have to be difficult. By making small changes such as drinking more water, getting regular exercise, and maintaining a balanced diet, you can significantly improve your well-being.",
+        "category" => "Lifestyle",
+        "custom_category" => "",
+        "privacy" => "private",
+        "image" => [
+            "name" => "healthy_lifestyle.jpg",
+            "type" => "image/jpeg",
+            "tmp_name" => "/tmp/php45678",
+            "error" => 0,
+            "size" => 170000
+        ],
+        "video" => null
+    ],
+    [
+        "title" => "Understanding Mental Health: A Guide for Beginners",
+        "content" => "Mental health is as important as physical health. In this guide, we cover the basics of mental well-being, including stress management, the importance of self-care, and when to seek professional help.",
+        "category" => "Health",
+        "custom_category" => "",
+        "privacy" => "public",
+        "image" => [
+            "name" => "mental_health.jpg",
+            "type" => "image/jpeg",
+            "tmp_name" => "/tmp/php56789",
+            "error" => 0,
+            "size" => 190000
+        ],
+        "video" => null
+    ],
+    [
+        "title" => "Exploring Space: The Latest Discoveries in Astronomy",
+        "content" => "Space exploration is constantly evolving with new discoveries. From black hole images to exoplanets and the search for extraterrestrial life, here’s what astronomers have uncovered recently.",
+        "category" => "Custom",
+        "custom_category" => "Astronomy",
+        "privacy" => "public",
+        "image" => [
+            "name" => "space_discoveries.jpg",
+            "type" => "image/jpeg",
+            "tmp_name" => "/tmp/php67890",
+            "error" => 0,
+            "size" => 200000
+        ],
+        "video" => [
+            "name" => "space_exploration.mp4",
+            "type" => "video/mp4",
+            "tmp_name" => "/tmp/php89012",
+            "error" => 0,
+            "size" => 15728640
+        ]
+    ]
+];
+
+$success_message = "Posts have been successfully created!";
+$error_message = "";
